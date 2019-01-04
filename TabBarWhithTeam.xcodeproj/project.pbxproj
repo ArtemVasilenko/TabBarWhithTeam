@@ -12,6 +12,7 @@
 		AC3F7C0321DFE005001EFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C0121DFE005001EFD8C /* Main.storyboard */; };
 		AC3F7C0521DFE007001EFD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C0421DFE007001EFD8C /* Assets.xcassets */; };
 		AC3F7C0821DFE007001EFD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C0621DFE007001EFD8C /* LaunchScreen.storyboard */; };
+		AC3F7C1021DFE083001EFD8C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7C0F21DFE083001EFD8C /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC3F7C0421DFE007001EFD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3F7C0721DFE007001EFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3F7C0921DFE008001EFD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F7C0F21DFE083001EFD8C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		AC3F7BF121DFE005001EFD8C = {
 			isa = PBXGroup;
 			children = (
+				AC3F7C0F21DFE083001EFD8C /* TabBarViewController.swift */,
 				AC3F7BFC21DFE005001EFD8C /* TabBarWhithTeam */,
 				AC3F7BFB21DFE005001EFD8C /* Products */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3F7C0021DFE005001EFD8C /* ViewController.swift in Sources */,
+				AC3F7C1021DFE083001EFD8C /* TabBarViewController.swift in Sources */,
 				AC3F7BFE21DFE005001EFD8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = TabBarWhithTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = TabBarWhithTeam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
