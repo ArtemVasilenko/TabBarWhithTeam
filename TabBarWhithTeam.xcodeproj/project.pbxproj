@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402B0C0721DFE648005A0DA1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B0C0521DFE648005A0DA1 /* SettingViewController.swift */; };
+		402B0C0821DFE648005A0DA1 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402B0C0621DFE648005A0DA1 /* SettingViewController.xib */; };
+		402B0C0B21DFE66F005A0DA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B0C0921DFE66F005A0DA1 /* HomeViewController.swift */; };
+		402B0C0C21DFE66F005A0DA1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402B0C0A21DFE66F005A0DA1 /* HomeViewController.xib */; };
+		402B0C0F21DFE696005A0DA1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B0C0D21DFE696005A0DA1 /* NotificationViewController.swift */; };
+		402B0C1021DFE696005A0DA1 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 402B0C0E21DFE696005A0DA1 /* NotificationViewController.xib */; };
 		AC3F7BFE21DFE005001EFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7BFD21DFE005001EFD8C /* AppDelegate.swift */; };
 		AC3F7C0021DFE005001EFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7BFF21DFE005001EFD8C /* ViewController.swift */; };
 		AC3F7C0321DFE005001EFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F7C0121DFE005001EFD8C /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402B0C0521DFE648005A0DA1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		402B0C0621DFE648005A0DA1 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		402B0C0921DFE66F005A0DA1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		402B0C0A21DFE66F005A0DA1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		402B0C0D21DFE696005A0DA1 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		402B0C0E21DFE696005A0DA1 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		AC3F7BFA21DFE005001EFD8C /* TabBarWhithTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarWhithTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F7BFD21DFE005001EFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3F7BFF21DFE005001EFD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				AC3F7C0421DFE007001EFD8C /* Assets.xcassets */,
 				AC3F7C0621DFE007001EFD8C /* LaunchScreen.storyboard */,
 				AC3F7C0921DFE008001EFD8C /* Info.plist */,
+				402B0C0921DFE66F005A0DA1 /* HomeViewController.swift */,
+				402B0C0A21DFE66F005A0DA1 /* HomeViewController.xib */,
+				402B0C0521DFE648005A0DA1 /* SettingViewController.swift */,
+				402B0C0621DFE648005A0DA1 /* SettingViewController.xib */,
+				402B0C0D21DFE696005A0DA1 /* NotificationViewController.swift */,
+				402B0C0E21DFE696005A0DA1 /* NotificationViewController.xib */,
 			);
 			path = TabBarWhithTeam;
 			sourceTree = "<group>";
@@ -126,6 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3F7C0821DFE007001EFD8C /* LaunchScreen.storyboard in Resources */,
+				402B0C0821DFE648005A0DA1 /* SettingViewController.xib in Resources */,
+				402B0C0C21DFE66F005A0DA1 /* HomeViewController.xib in Resources */,
+				402B0C1021DFE696005A0DA1 /* NotificationViewController.xib in Resources */,
 				AC3F7C0521DFE007001EFD8C /* Assets.xcassets in Resources */,
 				AC3F7C0321DFE005001EFD8C /* Main.storyboard in Resources */,
 			);
@@ -138,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402B0C0B21DFE66F005A0DA1 /* HomeViewController.swift in Sources */,
+				402B0C0721DFE648005A0DA1 /* SettingViewController.swift in Sources */,
+				402B0C0F21DFE696005A0DA1 /* NotificationViewController.swift in Sources */,
 				AC3F7C0021DFE005001EFD8C /* ViewController.swift in Sources */,
 				AC3F7C1021DFE083001EFD8C /* TabBarViewController.swift in Sources */,
 				AC3F7BFE21DFE005001EFD8C /* AppDelegate.swift in Sources */,
